@@ -35,3 +35,25 @@ default: document.write("wrong input")
 }*/
 
 //----------------------------------------------------------------------------------//
+
+
+/*
+for(var a = 1; a<11; a++)
+{
+    table = 5*a
+    document.write(table);       
+}*/
+//------------------------------------------------------------------//
+/*
+var a = 1;
+while(a<10){
+    document.write( a)
+    a=a+2
+}*/
+
+function subctractnumber(a,b){
+    result = a-b;
+    document.write("The result is: " +result);
+}
+
+subctractnumber(15,8);
