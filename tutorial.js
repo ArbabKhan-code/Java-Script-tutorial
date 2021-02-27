@@ -1,4 +1,4 @@
-document.write("<h1>Hello world!</h1>");
+//document.write("<h1>Hello world!</h1>");
 /*var num = 11;
 if(num>0 && num%2==0)
 {
@@ -74,15 +74,29 @@ for(var i=0;i<arr1.length;i++)
 }*/
 //------------------------------------------------------------------//
 //Oblects in js
-
+/*
 var car = {
-    car_brand: 'Tesla',
-    car_model:'Model2',
-    price: 3500,
 
- function teslaAutopilot():
- {
-    document.write("This car has auto pilot");
- }
+    car_brand : "BMW",
+    car_model : "M Series",
+    car_price : 40000,
+
+    BmwAutoPilot : function(){
+        document.write("This car has Auto pilot");
+    }
 }
-car.teslaAutopilot();
+document.write("Showing BMW cars details: "+car.car_brand);*/
+//-----------------------------------------------------------------------------------------//
+/*function cars(car_brand,car_model,car_price){
+    this.car_brand = car_brand;
+    this.car_model = car_model;
+    this.car_price = car_price;
+
+    this.BmwAutoPilot = function(){
+        document.write("This car has Auto Pilot.");
+    }
+}
+var c1 = new cars ('BMW' , 'M Series' , 45000)
+c1.BmwAutoPilot();
+document.write("Details: "+c1.car_brand);*/
+//-----------------------------------------------------------------------------------------//
