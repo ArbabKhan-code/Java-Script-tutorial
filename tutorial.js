@@ -84,19 +84,4 @@ var car = {
     BmwAutoPilot : function(){
         document.write("This car has Auto pilot");
     }
-}
-document.write("Showing BMW cars details: "+car.car_brand);*/
-//-----------------------------------------------------------------------------------------//
-/*function cars(car_brand,car_model,car_price){
-    this.car_brand = car_brand;
-    this.car_model = car_model;
-    this.car_price = car_price;
-
-    this.BmwAutoPilot = function(){
-        document.write("This car has Auto Pilot.");
-    }
-}
-var c1 = new cars ('BMW' , 'M Series' , 45000)
-c1.BmwAutoPilot();
-document.write("Details: "+c1.car_brand);*/
-//-----------------------------------------------------------------------------------------//
+}*/
