@@ -85,3 +85,7 @@ var car = {
         document.write("This car has Auto pilot");
     }
 }*/
+function button(){
+    //alert("Aur kesa hai bee!!");
+    document.getElementById("heading").innerHTML="Haan bhai maza ma!!";
+}
