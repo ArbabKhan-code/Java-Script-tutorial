@@ -1,4 +1,4 @@
-document.write("<h1>Hello world!</h1>");
+//document.write("<h1>Hello world!</h1>");
 /*var num = 11;
 if(num>0 && num%2==0)
 {
@@ -74,15 +74,14 @@ for(var i=0;i<arr1.length;i++)
 }*/
 //------------------------------------------------------------------//
 //Oblects in js
-
+/*
 var car = {
-    car_brand: 'Tesla',
-    car_model:'Model2',
-    price: 3500,
 
- function teslaAutopilot():
- {
-    document.write("This car has auto pilot");
- }
-}
-car.teslaAutopilot();
+    car_brand : "BMW",
+    car_model : "M Series",
+    car_price : 40000,
+
+    BmwAutoPilot : function(){
+        document.write("This car has Auto pilot");
+    }
+}*/
