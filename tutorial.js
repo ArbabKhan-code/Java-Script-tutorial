@@ -50,10 +50,39 @@ while(a<10){
     document.write( a)
     a=a+2
 }*/
+//------------------------------------------------------------------//
 
+/*
 function subctractnumber(a,b){
     result = a-b;
     document.write("The result is: " +result);
 }
 
-subctractnumber(15,8);
+subctractnumber(15,8);*/
+//------------------------------------------------------------------//
+/*
+var cars =["BMW","Audi","Aston Martin"];
+for(var i=0;i<cars.length;i++)
+{
+    document.write('<h1>'+cars[i]+'</h1>');
+}
+var arr1;
+arr1 = new Array("Sou", "River rafting","Electric cycling");
+for(var i=0;i<arr1.length;i++)
+{
+    document.write('<h1>'+arr1[i]+'</h1>');
+}*/
+//------------------------------------------------------------------//
+//Oblects in js
+
+var car = {
+    car_brand: 'Tesla',
+    car_model:'Model2',
+    price: 3500,
+
+ function teslaAutopilot():
+ {
+    document.write("This car has auto pilot");
+ }
+}
+car.teslaAutopilot();
