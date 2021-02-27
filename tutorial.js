@@ -91,8 +91,23 @@ function button(){
     //alert("Aur kesa hai bee!!");
     document.getElementById("heading").innerHTML="Haan bhai maza ma!!";
 }*/
-
-function fn(){
+//-------------------------------------------------------//
+//Take input from text box and print that input in alert box.
+/*function fn(){
     var str = document.getElementById("text1").value;
     alert(str);
+}*/
+//-------------------------------------------------------//
+//Take input from text box and check weather the username and password are same or not.
+function fn(){
+    var str1 = document.getElementById("text1").value;
+    var str2 = document.getElementById("text2").value;
+
+    if(str1 === str2){
+        alert("Password and Username can not be same.");
+    }
+    else{
+        alert("The password and username are succesfully changed.");
+    }
 }
+//-------------------------------------------------------//
