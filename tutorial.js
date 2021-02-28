@@ -122,4 +122,8 @@ function button(){
     }
 }*/
 //-------------------------------------------------------//
-//
+//Select option from drop down list and print that in alert
+function fn(){
+    var str = document.getElementById("selection");
+    alert(str.options[str.selectedIndex].value);
+}
