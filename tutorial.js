@@ -123,7 +123,17 @@ function button(){
 }*/
 //-------------------------------------------------------//
 //Select option from drop down list and print that in alert
-function fn(){
+/*function fn(){
     var str = document.getElementById("selection");
     alert(str.options[str.selectedIndex].value);
-}
+}*/
+//-------------------------------------------------------//
+//Manipluating html with getelement by tag name
+/*function fn(){
+    var manipulate = document.getElementsByTagName("p");
+    manipulate[0].style.fontSize = 25;
+    manipulate[1].style.color = "Blue";
+    manipulate[2].style.fontStyle= "italic";
+    manipulate[3].style.fontSize = 25;
+}*/
+//-------------------------------------------------------//
