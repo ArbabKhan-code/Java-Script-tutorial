@@ -99,7 +99,7 @@ function button(){
 }*/
 //-------------------------------------------------------//
 //Take input from text box and check weather the username and password are same or not.
-function fn(){
+/*function fn(){
     var str1 = document.getElementById("text1").value;
     var str2 = document.getElementById("text2").value;
 
@@ -109,5 +109,17 @@ function fn(){
     else{
         alert("The password and username are succesfully changed.");
     }
-}
+}*/
 //-------------------------------------------------------//
+//Taking input from radio button.
+/*function fn(){
+    var str1 = document.getElementById("r1");
+    var str2 = document.getElementById("r2");
+    if(str1.checked == true){
+    alert(r1.value);        
+    }else if(str2.checked ==true){
+        alert(r2.value);
+    }
+}*/
+//-------------------------------------------------------//
+//
