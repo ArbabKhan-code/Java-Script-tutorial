@@ -137,3 +137,12 @@ function button(){
     manipulate[3].style.fontSize = 25;
 }*/
 //-------------------------------------------------------//
+//Manipulating Html with getelementbyclassname
+/*function fn(){
+    var class1 = document.getElementsByClassName("mypara");
+    for(x=0;x<class1.length;x++){
+        class1[x].style.color="red";
+    }
+}*/
+//-------------------------------------------------------//
+//
